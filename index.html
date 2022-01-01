@@ -22,11 +22,18 @@
     <link rel="stylesheet" href="css/flaticon.css" />
     <link rel="stylesheet" href="css/icomoon.css" />
     <link rel="stylesheet" href="css/style.css" />
+    <style>
+      .owl-carousel .owl-stage,
+      .owl-carousel.owl-drag .owl-item {
+        -ms-touch-action: auto;
+        touch-action: auto;
+      }
+    </style>
   </head>
   <body>
     <div id="headers"></div>
 
-    <section class="home-slider owl-carousel">
+    <section id="inbox" class="home-slider owl-carousel swipe">
       <div class="slider-item" style="background-image: url(images/Happyhouse3.jpg)">
         <div class="overlay"></div>
         <div class="container">
