@@ -1,6 +1,6 @@
 <script>
   var index_nav = document.getElementById("index_nav");
-  var about_nav = document.getElementById("about_nav");
+  var gallery_nav = document.getElementById("gallery_nav");
   var teacher_nav = document.getElementById("teacher_nav");
   var courses_nav = document.getElementById("courses_nav");
   var contact_nav = document.getElementById("contact_nav");
@@ -8,6 +8,8 @@
     index_nav.classList.add("active");
   } else if (location.pathname == "/teacher.html") {
     teacher_nav.classList.add("active");
+  } else if (location.pathname == "/gallery.html") {
+    gallery_nav.classList.add("active");
   } else if (location.pathname == "/courses.html") {
     courses_nav.classList.add("active");
   } else if (location.pathname == "/contact.html") {
@@ -45,6 +47,7 @@
         <li id="index_nav" class="nav-item"><a href="index.html" class="nav-link pl-0">Home</a></li>
         <li id="teacher_nav" class="nav-item"><a href="teacher.html" class="nav-link">Teacher</a></li>
         <li id="courses_nav" class="nav-item"><a href="courses.html" class="nav-link">Courses</a></li>
+        <li id="gallery_nav" class="nav-item"><a href="gallery.html" class="nav-link">Gallery</a></li>
         <li id="contact_nav" class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
       </ul>
     </div>
